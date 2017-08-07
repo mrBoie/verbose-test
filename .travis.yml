@@ -5,4 +5,4 @@ dist: trusty
 solution: verbose-test.sln
 script:
 - ./build.sh --quiet verify
-- dotnet test ~\Unittest\UnitTest.cs
+- dotnet test /home/travis/build/mrBoie/verbose-test\Unittest\Unittest.csproj
