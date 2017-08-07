@@ -7,4 +7,4 @@ solution: verbose-test.sln
 script:
 - dotnet restore
 - dotnet build
-- dotnet test /home/travis/build/mrBoie/verbose-test\Unittest\Unittest.csproj
+- dotnet test
