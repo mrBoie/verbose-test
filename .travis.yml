@@ -5,5 +5,6 @@ dotnet: 1.0.3
 dist: trusty
 solution: verbose-test.sln
 script:
-- ./build.sh --quiet verify
+- dotnet restore
+- dotnet build
 - dotnet test /home/travis/build/mrBoie/verbose-test\Unittest\Unittest.csproj
