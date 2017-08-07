@@ -2,5 +2,6 @@ language: csharp
 mono: none
 dotnet: 1.0.3
 dist: trusty
+solution: verbose-test.sln
 script:
  - dotnet restore

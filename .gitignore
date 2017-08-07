@@ -3,10 +3,8 @@
 ################################################################################
 
 /.vs
-/UnitTestProject1/obj
-/UnitTestProject1/bin
-/verbose-test/verbose-test/obj
-/verbose-test/Unittest/obj
+/verbose-test/obj
+/verbose-test/bin/Debug/netcoreapp1.1
 /verbose-test/.vs/config
-/verbose-test/Unittest/bin/Debug/netcoreapp1.1
-/verbose-test/verbose-test/bin/Debug/netcoreapp1.1
+/Unittest/obj
+/Unittest/bin/Debug/netcoreapp1.1
